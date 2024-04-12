@@ -31,3 +31,6 @@ The model in the backend is `llava-hf/bakLlava-v1-hf`
 # UI
 
 ![ui-1](assets/llava-1.png)
+
+# References
+- [Source Code](https://github.com/satyajitghana/tsai-chat-vision)
