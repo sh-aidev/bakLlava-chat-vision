@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import { ThemeToggle } from "./theme-toggle";
 import { siteConfig } from "@/config/site";
 import { MainNav } from "./main-nav";
-import { Github, Twitter } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 export function SiteHeader() {
   return (
@@ -24,13 +24,13 @@ export function SiteHeader() {
               </div>
             </Link>
             <Link
-              href={siteConfig.links.twitter}
+              href={siteConfig.links.linkedin}
               target="_blank"
               rel="noreferrer"
             >
               <div className={cn("w-9 px-0")}>
-                <Twitter className="h-3 w-3 fill-current" />
-                <span className="sr-only">Twitter</span>
+                <Linkedin className="h-3 w-3 fill-current" />
+                <span className="sr-only">LinkedIn</span>
               </div>
             </Link>
             <ThemeToggle />

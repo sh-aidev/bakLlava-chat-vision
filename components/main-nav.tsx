@@ -26,7 +26,7 @@ export function MainNav() {
       </Link>
       <nav className="flex items-center space-x-6 text-sm font-medium">
         {/* <Link
-          href="https://github.com/satyajitghana/tsai-chat-vision"
+          href="https://github.com/sh-aidev/bakLlava-chat-vision.git"
           className={cn(
             "hidden text-foreground/60 transition-colors hover:text-foreground/80 lg:block"
           )}

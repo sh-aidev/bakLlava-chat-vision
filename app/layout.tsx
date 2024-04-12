@@ -11,7 +11,7 @@ import { TailwindIndicator } from "@/components/tailwind-indicator";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "TSAI Chat - Vision",
+  title: "LLAVA Chat - Vision",
   description: "LLaVA Model as the backend",
 };
 

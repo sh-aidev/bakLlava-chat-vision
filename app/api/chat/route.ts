@@ -5,8 +5,8 @@ import { siteConfig } from "@/config/site";
 // Create an OpenAI API client (that's edge friendly!)
 const openai = new OpenAI({
   apiKey: "NONE",
-  // baseURL: "http://localhost:8000/v1"
-  baseURL: siteConfig.modelBackend,
+  baseURL: "http://65.0.17.123:8000/v1"
+  // baseURL: siteConfig.modelBackend,
 });
 
 // IMPORTANT! Set the runtime to edge

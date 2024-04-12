@@ -1,14 +1,13 @@
 export const siteConfig = {
-  logoName: "TSAI",
-  name: "The School Of AI - Chat",
-  url: "https://thesatyajit.com",
-  ogImage: "https://thesatyajit.com/og.jpg",
+  logoName: "LLAVA",
+  name: "LLAVA - Chat",
+  url: "https://santuh.in",
   description: "Chat with Vision Capabilities!",
   links: {
-    twitter: "https://twitter.com/thesudoer_",
-    github: "https://github.com/satyajitghana/tsai-chat-vision",
+    linkedin: "https://linkedin.com/in/santuh",
+    github: "https://github.com/sh-aidev/bakLlava-chat-vision.git",
   },
-  modelBackend: "https://api.theschoolof.ai/v1",
+  // modelBackend: "",
 };
 
 export type SiteConfig = typeof siteConfig;

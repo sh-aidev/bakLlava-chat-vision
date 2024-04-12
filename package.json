@@ -1,5 +1,5 @@
 {
-  "name": "tsai-chat-vision",
+  "name": "llava-vision",
   "version": "0.1.0",
   "private": true,
   "scripts": {
